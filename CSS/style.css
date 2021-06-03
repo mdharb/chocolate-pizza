@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+
+header {
+    /* display: flex;
+    /* flex-direction: */
+    margin-bottom: 150px;
+    position: relative;
+    display: block;
+    margin-right: 15%;
+    
+}
+
+#headerImg{
+position: absolute;
+right: 5%;
+bottom: 5%;
+top:20%;
+}
+
+#logo{
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+}
+
+#mainCont{
+    margin-bottom: 200px;;
+}
+
+#title{
+position: relative;
+margin-top: 200px;
+}
+
+
+#printer{
+    position: absolute;
+    right: 210px;
+    top: 50px;
+}
+
+.para{
+    text-align: justify;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#title{
+    text-align: start;
+    margin-left: 16%;
+}
+
+#checkForm{
+  background-image: url("../img/list-bg.png");
+  min-height: 175px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 30px;
+
+
+}
+
+label {
+    display: block;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+#leftSide{
+    width: 50%;
+    float: left;
+   
+}
+
+#rightSide{
+    float: right;
+    width: 50%;
+
+}
+
+footer {
+    margin-left: 15%;
+    margin-right: 0;
+    position: relative;
+}
+
+#vanessa{
+    margin-bottom: 10px;
+}
+
+#vanessa img{
+position: absolute;
+left: 5%;
+}
+
+#vanessa p
+
+#vPara{
+    position: absolute;
+    top:15%;
+    left: 15%;
+    text-align: justify;
+
+}
+
+#text{
+    position: absolute;
+    top:10%;
+    left: 15%;
+}
+
+#vanessa button{
+    position:absolute;
+    right: 15%;
+}
+
+#copyright{
+margin-top: 100px;
+}
+
