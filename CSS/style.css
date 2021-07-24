@@ -4,12 +4,13 @@
 
 body {
     text-align: center;
+    margin: auto;
 }
 
 
 header {
     
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     position: relative;
     display: block;
     margin-right: 15%;
@@ -18,24 +19,36 @@ header {
 }
 
 #headerImg{
-position: absolute;
-right: 5%;
-bottom: 5%;
+float: right;
 /* top:20%; */
 }
 
-#logo{
-    position: absolute;
+#logo img,h1{
+    /* position: absolute;
     left: 15%;
-    bottom: 5%;
+    bottom: 5%; */
+    float: left;
+}
+#logo p {
+    margin-right: 72em;
+    font-size: xx-small;
 }
 
 
 #title{
 position: relative;
-margin-top: 200px;
+margin-top: 12em;
+margin-right: 10em;
+margin: auto;
+text-align: start;
+margin-left: 16%;
 }
 
+#mainImg{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
 
 #printer{
     position: absolute;
@@ -51,10 +64,6 @@ margin-top: 200px;
      margin-bottom: 40px;
 }
 
-#title{
-    text-align: start;
-    margin-left: 16%;
-}
 
 #checkForm{
   background-image: url("../img/list-bg.png");
@@ -95,6 +104,11 @@ footer {
     position: relative;
 }
 
+#vPara {
+    margin-right: 42.5em;
+    font-weight: bolder;
+}
+
 #vanessa{
     margin-bottom: 100px;
 }
@@ -112,10 +126,10 @@ left: 5%;
 
 #vanessa button{
     position:absolute;
-    right: 15%;
+    right: 15em;
     background-color: chocolate;
     color: whitesmoke;
-    height: 30px;
+    height: 2em;
 }
 
 #copyright{
